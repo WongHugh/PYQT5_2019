@@ -9,7 +9,7 @@
 # @IDE : PyCharm
 
 from PyQt5.QtWidgets import QApplication,QMainWindow,QWidget,QFileDialog
-import sys
+import sys,PyQt5.sip
 from Chapter03.day2.MainForm import Ui_MainWindow
 from Chapter03.day2.ChildrenForm import Ui_Form
 

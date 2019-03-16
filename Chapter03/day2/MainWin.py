@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'MainWin.ui'
 #
-# Created by: PyQt5 UI code generator 5.9.2
+# Created by: PyQt5 UI code generator 5.11.3
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -12,8 +12,10 @@ class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(400, 300)
+        Form.setToolTip("")
         self.label = QtWidgets.QLabel(Form)
         self.label.setGeometry(QtCore.QRect(70, 60, 261, 151))
+        self.label.setToolTip("")
         self.label.setText("")
         self.label.setPixmap(QtGui.QPixmap(":/png/images/IOTPP.png"))
         self.label.setObjectName("label")
@@ -25,4 +27,4 @@ class Ui_Form(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
 
-import Chapter03.day2.apprcc_rc
+import apprcc_rc
